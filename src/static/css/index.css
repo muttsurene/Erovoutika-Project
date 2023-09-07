@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-quiz-container{
+  width: 100% !important;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(erov_dark.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.bgSky{
+  width: 100%;
+  min-height: 100vh;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+}
